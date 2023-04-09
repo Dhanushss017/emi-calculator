@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.button_primary,
+.button_submit {
+    background-color: #2684FF !important;
+    height: 52px;
+}
+
+.button_primary:hover,
+.button_submit:hover {
+    background-color: #1666CE !important;
+}
+
+.shadow_light {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.onhover_input:hover {
+    border: 1px solid #2684FF;
+}
+
+.form_field::placeholder {
+    color:
+        #707070 !important;
+}
+
+.form_field {
+    color: #222222 !important;
+    height: 52px;
+}
+
+.bg_img {
+    background-image: url(/images/bg-img.png);
+    background-size: 100% 100%;
+}
